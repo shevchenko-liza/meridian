@@ -6,6 +6,7 @@ import icon3 from './photo/icon3.jpg'
 import icon4 from './photo/icon4.jpg'
 import right from './photo/right.jpg'
 import left from './photo/left.jpg'
+
 import clsx from 'clsx'
 
 export const ReadyToShip = () => {
