@@ -1,0 +1,52 @@
+.icon {
+    width: 100%;
+    height: 800px;
+    margin-top: 50px;
+}
+
+.icon1 {
+    position: absolute;
+}
+
+.top {
+    text-align: center;
+    transform: translateY(200px);
+}
+
+.titleTop {
+    margin: auto;
+    height: 42px;
+    width: 770px;
+}
+
+.title {
+    position: absolute;
+    padding-top: 380px;
+    height: 42px;
+    font-family: Outfit;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 42px;
+    letter-spacing: 7px;
+    color: white;
+}
+
+.textTop {
+    margin: auto;
+    height: 42px;
+    width: 1360px;
+}
+
+.text {
+    position: absolute;
+    padding-top: 380px;
+    height: 448px;
+    font-family: Outfit;
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 112px;
+    letter-spacing: 0em;
+    text-align: center;
+    width: 1260px;
+    color: white;
+}

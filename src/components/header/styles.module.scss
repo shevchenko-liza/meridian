@@ -1,0 +1,52 @@
+.box {
+    position: relative;
+    background-color: white;
+    height: 139px;
+    width: 100%;
+}
+
+.logo {
+    border-radius: 0px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 74px;
+    width: 360px;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 30px;
+}
+
+.title {
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    max-width: 400px;
+}
+
+.block {
+    margin: auto;
+    max-width: 1641px;
+}
+
+.secondPart {
+    margin: auto 1000px;
+}
+
+.name {
+    position: absolute;
+    display: flex;
+    gap: 40px;
+    max-width: 455px;
+}
+
+.homes {
+    width: 115px;
+}

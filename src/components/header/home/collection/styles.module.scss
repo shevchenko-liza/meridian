@@ -1,0 +1,35 @@
+.box {
+    margin: auto;
+    max-width: 1719px;
+}
+
+.iconBox {
+    display: flex;
+    gap: 26px;
+    margin-top: 50px;
+}
+
+.icon1 {
+    height: 555px;
+    width: 1137px;
+}
+
+.icon2,
+.icon3,
+.icon4,
+.icon5 {
+    height: 555px;
+    width: 555px;
+}
+
+.icons {
+    display: flex;
+    gap: 26px;
+    margin-top: 25px;
+}
+
+.green {
+    height: 397px;
+    width: 1718px;
+    margin-top: 50px;
+}
