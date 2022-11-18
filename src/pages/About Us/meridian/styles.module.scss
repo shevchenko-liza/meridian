@@ -1,0 +1,35 @@
+.icon {
+    height: 767px;
+    width: 870px;
+}
+
+.box {
+    margin: 100px auto;
+    max-width: 1720px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 93px
+}
+
+.title {
+    margin-top: 100px;
+    height: 82px;
+    width: 481px;
+    font-family: Outfit;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 82px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.text {
+    margin-top: 20px;
+    height: 460px;
+    width: 757px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 46px;
+    color: #000000;
+}

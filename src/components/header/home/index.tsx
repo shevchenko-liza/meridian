@@ -1,9 +1,16 @@
 import { useParams } from 'react-router-dom'
+
 import classes from './styles.module.scss'
+
 import icon from './photo/main.png'
+
 import { Collection } from './collection'
 import { ReadyToShip } from './readyToShip'
 import { Advertising } from './advertising'
+import { UniqueCollection } from './unique collection'
+import { HomeFurniture } from './Home furniture'
+import { Instagram } from './Instagram'
+
 export const Home = () => {
     const { home } = useParams()
 
@@ -22,7 +29,10 @@ export const Home = () => {
                 </div>
                 <Collection />
                 <ReadyToShip />
-               <Advertising/>
+                <Advertising />
+                <UniqueCollection />
+                <HomeFurniture/>
+             <Instagram/>
             </div>
         </>
     )

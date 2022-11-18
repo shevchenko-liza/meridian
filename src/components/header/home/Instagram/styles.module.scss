@@ -1,0 +1,33 @@
+.block {
+    margin: auto;
+    max-width: 1719px;
+}
+
+.title {
+    margin-top: 147px;
+    height: 83px;
+    font-family: Outfit;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 82px;
+    letter-spacing: 0px;
+    color: #545454;
+}
+
+.icon1,
+.icon2,
+.icon3,
+.icon4 {
+    height: 480px;
+    width: 480px;
+    width: 25%;
+}
+
+.iconBox {
+    margin-top: 27px;
+}
+
+.icon2:hover,
+.icon2:focus {
+    color: red;
+}

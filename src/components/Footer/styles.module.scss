@@ -1,0 +1,103 @@
+.box {
+    margin-top: -7px;
+}
+
+.background {
+    position: absolute;
+    height: 471px;
+    width: 100%;
+    z-index: 1;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.top {
+    margin: auto;
+    max-width: 1719px;
+    position: relative;
+    z-index: 2;
+}
+
+.bg {
+    background-color: white;
+    height: 80px;
+    width: 284px;
+    margin-top: 175px;
+    margin-left: 632px;
+}
+
+.title {
+    margin-top: 131px;
+    height: 95px;
+    width: 766px;
+    font-family: Outfit;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 95px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.text {
+    height: 64px;
+    width: 650px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #C1C1C1;
+    margin-top: 10px;
+}
+
+.email {
+    margin-top: 35px;
+    height: 64px;
+    width: 714px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #C1C1C1;
+}
+
+.number {
+    margin-top: 23px;
+    height: 33px;
+    width: 163px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+    color: #232323;
+    text-decoration: none;
+    color: currentColor;
+}
+
+.phoneBox {
+    display: flex;
+    gap: 15px;
+}
+
+.phoneIcon {
+    margin-top: 23px;
+    margin-left: 34px;
+}
+
+.time {
+    height: 33px;
+    width: 316px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0px;
+    color: white;
+    margin-top: 28px;
+    margin-left: 616px;
+}

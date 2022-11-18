@@ -1,0 +1,319 @@
+.bg {
+    position: relative;
+    background-color: #232323;
+    width: 100%;
+    height: 943px;
+    z-index: 1;
+    margin-top: 70px;
+}
+
+.logo {
+    margin-top: 56px;
+}
+
+.box {
+    margin: auto;
+    max-width: 1719px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.secondPart {
+    margin-top: 229px;
+}
+
+.second {
+    display: grid;
+    gap: 20px;
+}
+
+.thirdPart {
+    margin-top: 229px;
+}
+
+.third {
+    display: grid;
+    gap: 20px;
+}
+
+.office {
+    margin-top: 91px;
+    height: 32px;
+    width: 131px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+}
+
+.address {
+    height: 84px;
+    width: 309px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0px;
+    color: #FFFFFF94;
+}
+
+.phoneBox {
+    margin-top: 29px;
+    display: flex;
+    gap: 20px;
+}
+
+.phone {
+    height: 33px;
+    width: 163px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #FFFFFF94;
+    text-decoration: none;
+}
+
+.emailBox {
+    display: flex;
+    margin-top: 27px;
+    gap: 22px;
+}
+
+.email {
+    height: 33px;
+    width: 272px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #FFFFFF94;
+    margin-top: -5px;
+}
+
+.policy {
+    display: flex;
+    margin-top: 267px;
+    gap: 24px;
+}
+
+.terms {
+    height: 32px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+    width: 230px;
+}
+
+.privacy {
+    height: 32px;
+    width: 169px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+}
+
+.shopping {
+    color: white;
+    height: 32px;
+    width: 162px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+}
+
+.cards {
+    margin-top: 35px;
+    display: flex;
+    gap: 30px;
+}
+
+.product {
+    height: 32px;
+    width: 86px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.newArrival {
+    text-decoration: none;
+    height: 33px;
+    width: 145px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+    color: #FFFFFF94;
+}
+
+.livingRoom {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 155px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.kitchen {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 261px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.bedRoom {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 145px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.accent {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 145px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.table {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 198px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.homeOffice {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 221px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.outdoorFurniture {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 221px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 33px;
+}
+
+.help {
+    height: 32px;
+    width: 51px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    color: white;
+    text-decoration: none;
+}
+
+.aboutUs {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 117px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.contact {
+    text-decoration: none;
+    color: #FFFFFF94;
+    height: 33px;
+    width: 99px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.fourthPart {
+    margin-top: 219px;
+}
+
+.name {
+    height: 42px;
+    width: 405px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 42px;
+    color: white;
+}
+
+.emailTitle {
+    margin-top: 79px;
+    height: 33px;
+    width: 174px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.emailBlock {
+    border-bottom: 0.5px solid #FFFFFF;
+}
+
+.text {
+    margin-top: 20px;
+    height: 140px;
+    width: 450px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    color: white;
+}
+
+.socialNetwork {
+    display: flex;
+    gap: 30px;
+    margin-top: 205px;
+    margin-left: 370px;
+}
+
+.instagram {
+    color: white;
+}

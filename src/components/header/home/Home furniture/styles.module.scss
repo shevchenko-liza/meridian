@@ -1,0 +1,90 @@
+.box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    max-width: 1719px;
+    gap: 90px;
+}
+
+.title {
+    margin-top: 173px;
+    height: 236px;
+    width: 921px;
+    font-family: Outfit;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 118px;
+    letter-spacing: 0px;
+    color: #161616;
+}
+
+.text {
+    height: 258px;
+    width: 847px;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 43px;
+    letter-spacing: 0em;
+    color: #000000;
+    margin-top: 70px;
+}
+
+.iconBox {
+    display: flex;
+    margin-top: 75px;
+    gap: 33px;
+}
+
+.block {
+    display: flex;
+    gap: 8px;
+}
+
+.star {
+    height: 36px;
+    width: 37px;
+}
+
+.name {
+    height: 32px;
+    width: 247px;
+    color: #000000;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.265em;
+}
+
+.icon {
+    height: 836px;
+    width: 705px;
+}
+
+.iconBlock {
+    margin-top: 100px;
+}
+
+.nav {
+    display: flex;
+    position: absolute;
+    margin-left: 300px;
+    gap: 20px;
+}
+
+.counter {
+    height: 47px;
+    width: 65px;
+    font-family: HK Grotesk;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left,
+.right {
+    margin-top: 12px;
+}
