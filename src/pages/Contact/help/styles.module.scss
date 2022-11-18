@@ -1,0 +1,168 @@
+.box {
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.top {
+    margin-top: 100px;
+}
+
+.title {
+    margin: auto;
+    height: 95px;
+    width: 597px;
+    font-family: Outfit;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 95px;
+    letter-spacing: 0em;
+}
+
+.text {
+    margin: 30px auto;
+    height: 43px;
+    width: 1042px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 43px;
+    text-align: center;
+    color: #000000;
+}
+
+.block {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    width: 1300px;
+}
+
+.circle {
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    background-color: #A2BEAA;
+}
+
+.emailCircle {
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    background-color: #A2BEAA;
+}
+
+.addressCircle {
+    height: 106px;
+    width: 106px;
+    border-radius: 50%;
+    background-color: #A2BEAA;
+}
+
+.PhoneBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.general {
+    display: flex;
+}
+
+.icon {
+    text-align: center;
+}
+
+.icon1 {
+    margin-top: 38px;
+}
+
+.icon2 {
+    margin-top: 40px;
+}
+
+.icon3 {
+    margin-top: 34px;
+}
+
+.numberBox {
+    margin-left: 26px;
+}
+
+.phoneNumber {
+    height: 32px;
+    width: 265px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.265em;
+    color: #77808B;
+}
+
+.number {
+    margin-top: 21px;
+}
+
+.num {
+    color: #283646;
+    text-decoration: none;
+    height: 33px;
+    width: 149px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+}
+
+.emalBox {
+    margin-left: 26px;
+}
+
+.name {
+    height: 32px;
+    width: 100px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.265em;
+    color: #77808B;
+}
+
+.titleEmail {
+    height: 33px;
+    width: 222px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: #283646;
+    margin-top: 21px;
+}
+
+.localBox {
+    margin-left: 26px;
+}
+
+.nameLoc {
+    height: 32px;
+    width: 207px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.265em;
+    color: #77808B;
+}
+
+.titleLoc {
+    margin-top: 21px;
+    height: 33px;
+    width: 249px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #283646;
+}

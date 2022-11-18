@@ -25,7 +25,7 @@ export const Header = () => {
                         <Link to={generatePath("aboutUs")}>
                             <div className={classes.aboutUs}>About Us</div>
                         </Link>
-                        <Link to={generatePath("")}>
+                        <Link to={generatePath("contact")}>
                             <div className={classes.contact}>Contact</div>
                         </Link>
                     </div>
