@@ -1,0 +1,26 @@
+[{
+        "id": 1,
+        "name": "Serene Linen Deluxe Cloud",
+        "photo": "/images/icon1",
+        "kind": "sofas",
+        "price": "£2,500.00",
+        "discount": "£2,500.00 40% Off"
+    },
+    {
+        "id": 1,
+        "name": "Serene Linen Deluxe Cloud",
+        "photo": "/images/icon1",
+        "kind": "sofas",
+        "price": "£2,500.00",
+        "discount": "£2,500.00 40% Off"
+    },
+    {
+        "id": 1,
+        "name": "Serene Linen Deluxe Cloud",
+        "photo": "/images/icon1",
+        "kind": "sofas",
+        "price": "£2,500.00",
+        "discount": "£2,500.00 40% Off"
+    }
+
+]

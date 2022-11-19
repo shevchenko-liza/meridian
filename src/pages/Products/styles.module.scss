@@ -1,0 +1,43 @@
+.box {
+    position: relative;
+    margin: auto;
+    max-width: 1660px;
+    margin-top: 110px;
+}
+
+.main {
+    margin: auto;
+    max-width: 1719px;
+    height: 500px;
+}
+
+.block {
+    position: absolute;
+}
+
+.title {
+    height: 82px;
+    font-family: Outfit;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 82px;
+    color: white;
+}
+
+.text {
+    height: 82px;
+    width: 856px;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.265em;
+    color: white;
+    margin-left: 720px;
+    margin-top: 170px;
+}
+
+.titleBox {
+    margin-left: 425px;
+    margin-top: 110px;
+}
