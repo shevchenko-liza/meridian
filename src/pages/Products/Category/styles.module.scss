@@ -1,0 +1,367 @@
+.block {
+    height: 1472px;
+    width: 355px;
+}
+
+.category {
+    height: 33px;
+    width: 103px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 103px;
+}
+
+.box {
+    margin: auto;
+    max-width: 1759px;
+}
+
+.arivalsBox {
+    display: flex;
+    margin-top: 30px;
+}
+
+.arivalPlus {
+    margin-left: 184px;
+}
+
+.roomPlus {}
+
+.roomBox {
+    display: flex;
+    margin-top: 30px;
+    gap: 172px;
+}
+
+.kitchenBox {
+    display: flex;
+    margin-top: 30px;
+    gap: 60px;
+}
+
+.bedroomsBox {
+    display: flex;
+    margin-top: 30px;
+    gap: 215px;
+}
+
+.accentsBox {
+    display: flex;
+    margin-top: 30px;
+    gap: 238px;
+}
+
+.tablesBox {
+    display: flex;
+    margin-top: 30px;
+    gap: 137px;
+}
+
+.officeBox {
+    display: flex;
+    margin-top: 30px;
+    gap: 117px;
+}
+
+.furnitureBox {
+    display: flex;
+    margin-top: 30px;
+    gap: 134px;
+}
+
+.newArrivals {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+    cursor: pointer;
+}
+
+.livingRoom {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #888887;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    cursor: pointer;
+    width: 145px;
+}
+
+.roomPlus {}
+
+.kitchenRoom {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+    cursor: pointer;
+}
+
+.bedrooms {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+    cursor: pointer;
+}
+
+.accents {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #888887;
+    cursor: pointer;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.occasionalTables {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #888887;
+    cursor: pointer;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.office {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #888887;
+    cursor: pointer;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.outdoorFurniture {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #888887;
+    cursor: pointer;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.border {
+    margin-top: 30px;
+    border: 0.5px solid #A3A3A3;
+    width: 355px;
+    padding: 0;
+    margin-left: -5px;
+}
+
+.secondBorder {
+    margin-top: 30px;
+    border: 0.5px solid #0B0B0B;
+    width: 355px;
+    padding: 0;
+    margin-left: -5px;
+}
+
+.input {
+    height: 6px;
+    width: 251px;
+    border-radius: 12px;
+    margin-left: -5px;
+    margin-top: 37px;
+}
+
+.inpitPrice {
+    display: flex;
+    margin-top: 14px;
+    gap: 33px;
+}
+
+.minBox {
+    display: grid;
+}
+
+.featured {
+    margin-top: 30px;
+    height: 33px;
+    width: 102px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #272727;
+}
+
+.checkboxSpring {
+    margin-top: 30px;
+    height: 28px;
+    width: 28px;
+    border-radius: 4px;
+}
+
+.spring {
+    height: 33px;
+    width: 72px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+}
+
+.spBlock {
+    margin-top: 30px;
+}
+
+.springBox {
+    display: flex;
+    gap: 32px;
+}
+
+.sale {
+    height: 33px;
+    width: 48px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+}
+
+.slBox {
+    display: flex;
+    gap: 32px;
+}
+
+.slBlock {
+    margin-top: 30px;
+}
+
+.arBox {
+    display: flex;
+    gap: 30px;
+}
+
+.chArrival {
+    height: 33px;
+    width: 132px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+}
+
+.arBlock {
+    margin-top: 32px;
+}
+
+.clBox {
+    display: flex;
+    gap: 30px;
+}
+
+.clBlock {
+    margin-top: 32px;
+}
+
+.clearance {
+    height: 33px;
+    width: 115px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+}
+
+.price {
+    height: 33px;
+    width: 133px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #272727;
+    margin-top: 30px;
+}
+
+.num {
+    height: 42px;
+    width: 109px;
+    margin-top: 4px;
+}
+
+.min {
+    height: 33px;
+    width: 109px;
+    color: #888887;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.clear {
+    margin-top: 38px;
+    font-family: HK Grotesk;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.bt {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.searchBox {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #888887;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    cursor: pointer;
+    width: 145px;
+}

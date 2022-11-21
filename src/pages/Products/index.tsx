@@ -4,6 +4,7 @@ import classes from './styles.module.scss'
 
 import main from './photo/main.jpg'
 import { Collection } from "./Collection"
+import { Category } from "./Category"
 
 export const Products = () => {
     const { products } = useParams()
@@ -21,6 +22,7 @@ export const Products = () => {
                 </div>
             </div>
             <Collection />
+            <Category/>
         </>
     )
 }

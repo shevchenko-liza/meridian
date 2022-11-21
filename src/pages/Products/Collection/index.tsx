@@ -7,7 +7,7 @@ export const Collection = () => {
         <div className={classes.box}>
             <div className={classes.block}>
                 <div className={classes.title}>Collection</div>
-                <div className={classes.showing}>Showing Products</div>
+                <div className={classes.showing}>Showing 1-24 of 557 Products</div>
                 <div className={classes.sortBox}>
                     <div className={classes.sort}>Sort by</div>
                     <select className={clsx(classes.optionSort, classes.bt)} >

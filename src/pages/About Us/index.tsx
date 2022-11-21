@@ -23,7 +23,7 @@ export const AboutUs = () => {
             <div className={classes.bg}>
                 <img src={icon} className={classes.icon} />
             </div>
-            <Meridian/>
+            <Meridian />
         </>
     )
 }
