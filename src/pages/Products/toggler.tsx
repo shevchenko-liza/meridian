@@ -1,16 +1,17 @@
 import { useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { livingSlice, LIVING_OPENED } from '../../store/slices/living'
 
 // import { topFormSlice, TopForm, TOP_FORM_VARIANT } from '../../store/slices/top-form'
-import { searchSlice, SEARCH_OPENED } from '../../store/slices/plus-minus'
+// import { searchSlice, SEARCH_OPENED } from '../../store/slices/plus-minus'
 
 import classes from './styles.module.scss'
 
-export const SearchToggler = () => {
+export const Toggler = () => {
   const dispatch = useDispatch()
-  const opened = useSelector(SEARCH_OPENED)
+  const opened = useSelector( LIVING_OPENED)
 
-  const handleToggleSearch = useCallback(() => dispatch(searchSlice.actions.toggle()), [dispatch])
+  const handleToggleSearch = useCallback(() => dispatch(livingSlice.actions.toggle()), [dispatch])
 
   return (
     <button className={classes.searchBox} onClick={handleToggleSearch}>

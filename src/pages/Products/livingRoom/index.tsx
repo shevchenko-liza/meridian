@@ -1,5 +1,6 @@
 import { useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
+import { generatePath, Link } from 'react-router-dom'
 import { livingSlice, LIVING_OPENED } from '../../../store/slices/living'
 import classes from './styles.module.scss'
 
@@ -10,7 +11,9 @@ export const LivingRoom = () => {
             <div className={classes.sofaBox}>
                 <input className={classes.checkboxSofa} type="checkbox"></input>
                 <div className={classes.soBlock}>
+                <Link to={generatePath("/sofa")}>
                     <button className={classes.sofa}>Sofas</button>
+                    </Link>
                 </div>
             </div>
             <div className={classes.seatsBox}>

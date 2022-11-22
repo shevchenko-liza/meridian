@@ -1,0 +1,13 @@
+.box {
+    display: flex;
+    margin: auto;
+    max-width: 1759px;
+}
+
+.product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 51px;
+    margin-left: 85px;
+    margin-top: 100px;
+}

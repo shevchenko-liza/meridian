@@ -6,6 +6,7 @@ import icon from './photo/main.jpg'
 
 import clsx from "clsx"
 import { Meridian } from "./meridian"
+import { FrequentlyQuestions } from "../../components/FrequentlyQuestions"
 
 export const AboutUs = () => {
     const { aboutUs } = useParams()
@@ -24,6 +25,7 @@ export const AboutUs = () => {
                 <img src={icon} className={classes.icon} />
             </div>
             <Meridian />
+            <FrequentlyQuestions/>
         </>
     )
 }

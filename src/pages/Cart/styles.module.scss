@@ -26,6 +26,7 @@
     width: 427.1484375px;
     display: flex;
     margin-left: 21px;
+    margin-top: 83px;
 }
 
 .top {
@@ -109,10 +110,51 @@
     border-color: transparent;
     cursor: pointer;
     margin-left: 21px;
+    margin-top: 23px;
 }
 
 .cart {
     display: flex;
     gap: 30px;
+    margin-left: 45px;
+    margin-top: 40px;
+}
+
+.subtotal {
+    height: 26px;
+    width: 78px;
+    font-family: HK Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #333333;
     margin-left: 21px;
+    margin-top: 20px;
+}
+
+.total {
+    height: 26px;
+    width: 47px;
+    font-family: HK Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #333333;
+    margin-top: 40px;
+    margin-left: 21px;
+}
+
+.text {
+    height: 50px;
+    width: 400px;
+    font-family: HK Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    color: #808080;
+    margin-left: 21px;
+    margin-top: 40px;
 }

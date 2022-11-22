@@ -15,7 +15,9 @@ type ItemProps = {
 export const Item: React.FC<ItemProps> = ({ id, name, price, photo, discount, promotional_price,kind }) => (
     <div>
         <img className={classes.photo} src={photo} alt="" />
-        <Link to={generatePath("/:kind/:id", { id,kind })} className={classes.name}>{name} </Link>
+       
+       <div className={classes.name}>{name} </div>
+        
         <div>
             <div className={classes.block}>
                 <div className={classes.price}>{price}</div>

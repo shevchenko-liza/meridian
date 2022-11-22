@@ -10,13 +10,15 @@ import { AboutUs } from './pages/About Us';
 import { Cart } from './pages/Cart';
 import { Contact } from './pages/Contact';
 import { Products } from './pages/Products';
+import { SofaPage } from './pages/SofaPage';
+import { ProductSofa } from './pages/SofaPage/ProductSofa';
 import { catalogSlice } from './store/slices/catalog';
 
 
 const App = () => {
   const dispatch = useDispatch()
   useEffect(() => {
-    fetch('/assets/catalog.json')
+    fetch('/assets/catalog.js')
       .then(response => response.json())
       .then(data => dispatch(catalogSlice.actions.setList(data)))
   }, [dispatch])
@@ -28,7 +30,12 @@ const App = () => {
         <Route path="home" element={<Home />} />
         <Route path="aboutUs" element={<AboutUs />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="products" element={<Products />} />
+      <Route>
+        <Route path="collection" element={<Products />} />
+          <Route path="/sofa" element={<SofaPage  />} />
+          <Route path="/sofa/:id" element={<ProductSofa  />} />
+          <Route index element={<Home />} />
+          </Route>
         <Route path="/home/cart" element={<Cart />} />
         <Route index element={<Home />} />
       </Routes>

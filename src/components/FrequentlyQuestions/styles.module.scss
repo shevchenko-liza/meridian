@@ -1,0 +1,233 @@
+.box {
+    margin: auto;
+    max-width: 1720px;
+    margin-bottom: 100px;
+}
+
+.title {
+    height: 69px;
+    width: 673px;
+    font-family: Outfit;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 69px;
+    color: #000000;
+}
+
+.border {
+    border: 0.5px solid #BEBFBE;
+    width: 1721px;
+    margin-top: 38px;
+}
+
+.firstQuestion {
+    display: flex;
+    gap: 1389px;
+}
+
+.firstPlus {
+    margin-top: 36px;
+}
+
+.firstTitle {
+    position: absolute;
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    margin-top: 45px;
+    cursor: pointer;
+}
+
+.secondQuestion {
+    display: flex;
+    gap: 1305px;
+}
+
+.secondTitle {
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #272727;
+    padding: 0;
+    margin-top: 45px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.secondPlus {
+    margin-top: 36px;
+}
+
+.thirdQuestion {
+    display: flex;
+    gap: 1320px;
+}
+
+.thirdTitle {
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #272727;
+    margin-top: 45px;
+}
+
+.thirdPlus {
+    margin-top: 36px;
+}
+
+.fourthQuestion {
+    display: flex;
+}
+
+.fourthTitle {
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.fifthQuestion {
+    display: flex;
+}
+
+.fifthTitle {
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 45px;
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.sixthQuestion {
+    display: flex;
+}
+
+.sixthTitle {
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 45px;
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.seventhQuestion {
+    display: flex;
+}
+
+.seventhTitle {
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 45px;
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.eightQuestion {
+    display: flex;
+}
+
+.eightTitle {
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 45px;
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.ninthQuestion {
+    display: flex;
+}
+
+.ninthTitle {
+    color: #272727;
+    padding: 0;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    margin-top: 45px;
+    height: 33px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.fourthPlus {
+    margin-left: 1330px;
+    margin-top: 36px;
+}
+
+.fifthPlus {
+    margin-left: 1270px;
+    margin-top: 36px;
+}
+
+.sixthPlus {
+    margin-left: 1320px;
+    margin-top: 36px;
+}
+
+.seventhPlus {
+    margin-left: 1330px;
+    margin-top: 36px;
+}
+
+.eightPlus {
+    margin-left: 1153px;
+    margin-top: 36px;
+}
+
+.ninthPlus {
+    margin-left: 1210px;
+    margin-top: 36px;
+}
+
+.block {
+    display: grid;
+}

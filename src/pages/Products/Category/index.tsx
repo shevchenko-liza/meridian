@@ -2,7 +2,7 @@ import { useCallback } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { livingSlice, LIVING_OPENED } from '../../../store/slices/living'
 import { LivingRoom } from '../livingRoom'
-import { SearchToggler } from '../toggler'
+import { Toggler } from '../toggler'
 import classes from './styles.module.scss'
 
 export const Category = () => {
@@ -30,7 +30,7 @@ export const Category = () => {
                             {opened ? <LivingRoom /> : null}
                         </div>
                         <div>
-                            <SearchToggler />
+                            <Toggler />
                         </div>
                     </div>
                     <div className={classes.kitchenBox}>

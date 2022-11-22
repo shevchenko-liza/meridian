@@ -16,7 +16,7 @@ export const Header = () => {
                         <Link to={generatePath("home")}>
                             <div className={classes.home}>Home</div>
                         </Link>
-                        <Link to={generatePath("products")}>
+                        <Link to={generatePath("collection")}>
                             <div className={classes.product}>Products</div>
                         </Link>
                         <Link to={generatePath("")}>

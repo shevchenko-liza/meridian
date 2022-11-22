@@ -34,6 +34,7 @@ export const Products = () => {
                                 discount={item.discount}
                                 id={item.id} 
                                 promotional_price={item.promotional_price}
+                                kind={item.kind} 
                                 />
                                
                         ))}
