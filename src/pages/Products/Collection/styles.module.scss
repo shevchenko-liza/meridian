@@ -18,7 +18,7 @@
     font-size: 25px;
     font-weight: 400;
     line-height: 33px;
-    margin-top: -20px;
+    margin-top: -23px;
 }
 
 .box {
@@ -34,7 +34,7 @@
     font-size: 25px;
     font-weight: 400;
     line-height: 33px;
-    margin-left: 197px;
+    margin-left: 200px;
 }
 
 .sort {
@@ -44,10 +44,12 @@
     font-size: 25px;
     font-weight: 400;
     line-height: 33px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .sortBox {
     display: flex;
     gap: 36px;
-    transform: translateX(380px);
+    margin-left: 400px;
 }

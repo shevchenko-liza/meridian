@@ -5,7 +5,7 @@ interface CatalogState {
 }
 
 export const livingSlice = createSlice({
-    name: 'search',
+    name: 'living',
     initialState: {
         opened: false,
     },

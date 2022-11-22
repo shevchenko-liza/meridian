@@ -1,0 +1,118 @@
+.box {
+    margin: auto;
+    max-width: 1759px;
+    transform: translateX(1270px);
+    margin-bottom: 150px;
+}
+
+.order {
+    font-family: Outfit;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 69px;
+}
+
+.border {
+    border: 1px solid #D3D3D3;
+    height: 634px;
+    width: 469px;
+    margin-top: 25px;
+}
+
+.block {
+    border: 1px solid #D3D3D3;
+    background-color: #D1D1D1;
+    height: 48px;
+    width: 427.1484375px;
+    display: flex;
+    margin-left: 21px;
+}
+
+.top {
+    margin-left: 103px;
+    height: 23px;
+    width: 59px;
+    font-family: HK Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #151515;
+    margin-top: 13px;
+}
+
+.free {
+    height: 23px;
+    font-family: HK Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #151515;
+    margin-top: 13px;
+    margin-left: 12px;
+}
+
+.radio {
+    width: 20px;
+    height: 20px;
+    margin-top: 13px;
+}
+
+.secondBlock {
+    border: 1px solid #D3D3D3;
+    background-color: #D1D1D1;
+    height: 48px;
+    width: 427.1484375px;
+    display: flex;
+    margin-left: 21px;
+    margin-top: 16px;
+}
+
+.premium {
+    height: 23px;
+    width: 147px;
+    font-family: HK Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #151515;
+    margin-left: 12px;
+    margin-top: 13px;
+}
+
+.secondTop {
+    height: 23px;
+    width: 69px;
+    font-family: HK Grotesk;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-left: 117px;
+    color: #151515;
+    margin-top: 13px;
+}
+
+.button {
+    height: 32px;
+    width: 395px;
+    color: white;
+    font-family: HK Grotesk;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+}
+
+.checkout {
+    height: 68px;
+    width: 427px;
+    background-color: #B58269;
+    border-color: transparent;
+    cursor: pointer;
+    margin-left: 21px;
+}
+
+.cart {
+    display: flex;
+    gap: 30px;
+    margin-left: 21px;
+}

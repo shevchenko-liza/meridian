@@ -4,8 +4,8 @@ import _keyBy from 'lodash/keyBy'
 
 type ID = number | `${number}`
 
-export interface Product {
-    id: ID,
+export interface Goods {
+    id: number | `${number}`,
     name: string
     photo:string
     price: number
@@ -15,9 +15,9 @@ export interface Product {
 }
 
 interface CatalogState {
-    list: Product[]
+    list: Goods[]
     table: {
-        [id in ID]: Product
+        [id in ID]: Goods
     }
 }
 
@@ -28,7 +28,7 @@ export const catalogSlice = createSlice({
         table: {},
     } as CatalogState,
     reducers: {
-        setList(state, action: PayloadAction<Product[]>) {
+        setList(state, action: PayloadAction<Goods[]>) {
             state.list = action.payload
             state.table = _keyBy(action.payload, 'id')
         }
