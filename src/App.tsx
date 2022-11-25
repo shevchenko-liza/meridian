@@ -22,7 +22,7 @@ const App = () => {
       .then(response => response.json())
       .then(data => dispatch(catalogSlice.actions.setList(data)))
   }, [dispatch])
-  
+
   return (
     <div>
       <Header />
@@ -30,13 +30,12 @@ const App = () => {
         <Route path="home" element={<Home />} />
         <Route path="aboutUs" element={<AboutUs />} />
         <Route path="contact" element={<Contact />} />
-      <Route>
-        <Route path="collection" element={<Products />} />
-          <Route path="/sofa" element={<SofaPage  />} />
-          <Route path="sofa/:id" element={<ProductSofa  />} />
-      
+        <Route>
+          <Route path="collection" element={<Products />} />
+          <Route path="/sofa" element={<SofaPage />} />
+          <Route path="sofa/:id" element={<ProductSofa />} />
           <Route index element={<Home />} />
-          </Route>
+        </Route>
         <Route path="/home/cart" element={<Cart />} />
         <Route index element={<Home />} />
       </Routes>

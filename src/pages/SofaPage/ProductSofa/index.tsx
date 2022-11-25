@@ -1,8 +1,12 @@
-
 import clsx from "clsx"
+
 import { useParams } from "react-router-dom"
+
 import { Product } from "../../../components/assets/catalog"
 import { FrequentlyQuestions } from "../../../components/FrequentlyQuestions"
+import { ProductInformation } from "../../../ProductInformation"
+
+import { TopForm } from "../../../ProductInformation/top-form"
 
 
 import classes from './styles.module.scss'
@@ -112,9 +116,11 @@ export const ProductSofa = () => {
                             <div className={classes.text}>Order now and enjoy free delivery on us! Restrictions apply.</div>
                         </div>
                     </div>
+                    <ProductInformation />
+                    <TopForm />
                 </div>
             </div>
-            <FrequentlyQuestions/>
+            <FrequentlyQuestions />
         </div>
     )
 }
