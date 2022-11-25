@@ -8,7 +8,6 @@ import { Item } from "./Item"
 import classes from './styles.module.scss'
 
 export const SofaPage = () => {
-
     const product = Product
 
     return (
@@ -27,7 +26,6 @@ export const SofaPage = () => {
                         promotional_price={item.promotional_price}
                         kind={item.kind}
                     />
-
                 ))}
             </div>
         </div>

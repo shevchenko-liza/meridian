@@ -23,7 +23,7 @@ export const Item: React.FC<ItemProps> = ({ id, name, price, photo, discount, pr
                 <div className={classes.discount}>{discount}</div>
             </div>
             <div className={classes.id}>{id}</div>
-            <div >{kind}</div>
+            <div className={classes.kind} >{kind}</div>
         </div>
     </div>
 )
