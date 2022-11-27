@@ -10,6 +10,10 @@ import icon9 from './images/icon9.jpg'
 import icon10 from './images/icon10.jpg'
 import icon11 from './images/icon11.jpg'
 import icon12 from './images/icon12.jpg'
+import icon14 from './images/icon14.jpg'
+import icon15 from './images/icon15.jpg'
+import icon16 from './images/icon16.jpg'
+import icon17 from './images/icon17.jpg'
 
 export const Product = [{
         "id": 1,
@@ -120,5 +124,33 @@ export const Product = [{
         "price": "£2,500.00",
         "promotional_price": "£2,500.00",
         "discount": " 40% Off"
+    },
+    {
+        "id": 13,
+        "name": "Alma Velvet Armless ",
+        "photo": icon14,
+        "price": "£3,400.00",
+        "status": "true"
+    },
+    {
+        "id": 14,
+        "name": "Alma Velvet Armless Set",
+        "photo": icon15,
+        "price": "£3,600.00",
+        "status": "true"
+    },
+    {
+        "id": 15,
+        "name": "Alina Velvet Set ",
+        "photo": icon16,
+        "price": "£3,700.00",
+        "status": "true"
+    },
+    {
+        "id": 16,
+        "name": "Serpentine Velvet Sofa",
+        "photo": icon17,
+        "price": "£4,600.00",
+        "status": "true"
     },
 ]

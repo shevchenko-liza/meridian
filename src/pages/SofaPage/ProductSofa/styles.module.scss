@@ -144,3 +144,84 @@
     line-height: 42px;
     color: #545454;
 }
+
+.aluminiumFurnitureBox {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 130px;
+    gap: 180px;
+}
+
+.icon {
+    height: 690px;
+    width: 851px;
+}
+
+.aluminiumTitle {
+    height: 82px;
+    width: 726px;
+    font-family: Outfit;
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 82px;
+    color: #000000;
+}
+
+.aluminiumText {
+    height: 480px;
+    width: 757px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 40px;
+    color: #848484;
+}
+
+.shopTitle {
+    margin-top: 100px;
+    height: 95px;
+    width: 962px;
+    font-family: Outfit;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 95px;
+    color: #272727;
+    margin-left: 377px;
+}
+
+.reviews {
+    height: 69px;
+    width: 321px;
+    font-family: Outfit;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 69px;
+    color: #1D1F1F;
+}
+
+.reviewsBox {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.buttonReview {
+    height: 40px;
+    width: 178px;
+    font-family: HK Grotesk;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 40px;
+    color: white;
+}
+
+.orderReview {
+    background-color: #3A5040;
+    border-color: transparent;
+    cursor: pointer;
+    height: 103px;
+    width: 249px;
+}
+
+.buttonBox {
+    margin-left: 1140px;
+}

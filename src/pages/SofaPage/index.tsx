@@ -1,7 +1,7 @@
+
 import { FC } from "react"
 import { useParams } from "react-router-dom"
 import { Product } from "../../components/assets/catalog"
-import { Products } from "../Products"
 import { Category } from "../Products/Category"
 import { Item } from "./Item"
 
@@ -9,6 +9,7 @@ import classes from './styles.module.scss'
 
 export const SofaPage = () => {
     const product = Product
+    .filter(product => product.kind)
 
     return (
         <div className={classes.box}>

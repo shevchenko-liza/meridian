@@ -1,4 +1,5 @@
 import clsx from "clsx"
+import classes from './styles.module.scss'
 
 import { useParams } from "react-router-dom"
 
@@ -8,8 +9,9 @@ import { ProductInformation } from "../../../ProductInformation"
 
 import { TopForm } from "../../../ProductInformation/top-form"
 
+import icon1 from './photo/icon1.jpg'
+import { PopularSets } from "../../../components/PopularSets"
 
-import classes from './styles.module.scss'
 export const ProductSofa = () => {
     const { id } = useParams()
     const product = Product
@@ -120,7 +122,25 @@ export const ProductSofa = () => {
                     <TopForm />
                 </div>
             </div>
+            <div className={classes.aluminiumFurnitureBox}>
+                <div className={classes.icon1}>
+                    <img src={icon1} className={classes.icon} />
+                </div>
+                <div className={classes.aluminiumBlock}>
+                    <div className={classes.aluminiumTitle}>Cast Aluminium Furniture</div>
+                    <div className={classes.aluminiumText}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non suspendisse vivamus convallis proin. Molestie pulvinar tortor <br /> neque adipiscing mattis diam nibh nunc quis. Nisl sit faucibus amet<br /> et pharetra. Vitae quis porta aliquet semper. Pulvinar augue <br />commodo facilisis sit habitant donec. Sed senectus natoque vitae<br /> faucibus volutpat cras ac ullamcorper nec. Quam tortor in aliquam <br />iaculis fringilla. Diam feugiat mattis pulvinar congue mattis. Dui<br /> felis lacus, porta a facilisi. Nunc aliquam vulputate sem sapien<br /> lacus, nisi. Ullamcorper purus ut nisl non malesuada amet. Neque<br /> viverra quis dui et. Elit, et fringilla convallis elementum sodales<br /> non in.
+                        <br />  Amet amet, ut nunc quam.</div>
+                </div>
+            </div>
             <FrequentlyQuestions />
+            <div className={classes.shopTitle}>Shop Our Other Popular Sets</div>
+            <PopularSets />
+            <div className={classes.reviewsBox}>
+                <div className={classes.reviews}>Reviews </div>
+                <div className={classes.buttonBox}>
+                    <button type="submit" className={clsx(classes.buttonReview, classes.orderReview)}>Write A Review</button>
+                </div>
+            </div>
         </div>
     )
 }

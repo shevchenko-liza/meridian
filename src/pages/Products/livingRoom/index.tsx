@@ -9,7 +9,7 @@ export const LivingRoom = () => {
                 <div className={classes.sofaBox}>
                     <input className={classes.checkboxSofa} type="checkbox"></input>
                     <div className={classes.soBlock}>
-                        <Link to={generatePath("/sofa")}>
+                        <Link to={generatePath("/collection/sofa")}>
                             <button className={classes.sofa}>Sofas</button>
                         </Link>
                     </div>

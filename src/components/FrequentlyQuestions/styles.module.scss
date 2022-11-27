@@ -46,7 +46,6 @@
 
 .secondQuestion {
     display: flex;
-    gap: 1305px;
 }
 
 .secondTitle {
@@ -61,10 +60,12 @@
     border: none;
     background: transparent;
     cursor: pointer;
+    width: 350px;
 }
 
 .secondPlus {
     margin-top: 36px;
+    margin-left: 1300px;
 }
 
 .thirdQuestion {
