@@ -3,17 +3,20 @@ import classes from './styles.module.scss'
 
 import { useParams } from "react-router-dom"
 
-import { Product } from "../../../components/assets/catalog"
 import { FrequentlyQuestions } from "../../../components/FrequentlyQuestions"
 import { ProductInformation } from "../../../ProductInformation"
-
+import {CATALOG} from '../../../store/slices/catalog'
 import { TopForm } from "../../../ProductInformation/top-form"
 
 import icon1 from './photo/icon1.jpg'
 import { PopularSets } from "../../../components/PopularSets"
+import { Order } from "./Item"
+import { useSelector } from "react-redux"
+import { Product } from "../../../components/assets/catalog"
 
 export const ProductSofa = () => {
     const { id } = useParams()
+    // const product = useSelector(CATALOG)
     const product = Product
     const sofas = product.find(sofas => id !== undefined && sofas.id === parseInt(id))
 
@@ -34,8 +37,9 @@ export const ProductSofa = () => {
                         <div className={classes.discount}>{sofas.discount}</div>
                     </div>
                     <div className={classes.id}>{id}</div>
+                    {/* <img className={classes.img} src={sofas.pic} alt="" /> */}
                     <div className={classes.kind} >{sofas.kind}</div>
-                    <button type="submit" id={id} className={clsx(classes.button, classes.order)}>Add To Cart</button>
+                    <Order id={parseInt(id)} />
                     <div className={classes.checkoutBox}>
                         <div className={classes.checkout}>Guaranteed Safe Checkout</div>
                         <div className={classes.icons}>

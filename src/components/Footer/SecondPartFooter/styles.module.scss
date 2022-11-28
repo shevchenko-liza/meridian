@@ -11,6 +11,13 @@
     margin-top: 56px;
 }
 
+.line {
+    position: absolute;
+    border-bottom: 0.5px solid #FFFFFF;
+    width: 1720px;
+    margin-top: 36px;
+}
+
 .box {
     margin: auto;
     max-width: 1719px;
@@ -37,9 +44,8 @@
 }
 
 .office {
-    margin-top: 91px;
+    margin-top: 81px;
     height: 32px;
-    width: 131px;
     font-family: Outfit;
     font-size: 25px;
     font-weight: 300;
@@ -48,6 +54,7 @@
 }
 
 .address {
+    margin-top: 24px;
     height: 84px;
     width: 309px;
     font-family: HK Grotesk;

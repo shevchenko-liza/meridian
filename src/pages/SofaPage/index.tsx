@@ -1,7 +1,7 @@
-
-import { FC } from "react"
+import { useSelector } from "react-redux"
 import { useParams } from "react-router-dom"
 import { Product } from "../../components/assets/catalog"
+import { CATALOG } from "../../store/slices/catalog"
 import { Category } from "../Products/Category"
 import { Item } from "./Item"
 

@@ -14,6 +14,8 @@ import icon14 from './images/icon14.jpg'
 import icon15 from './images/icon15.jpg'
 import icon16 from './images/icon16.jpg'
 import icon17 from './images/icon17.jpg'
+import img1 from './images/img1.jpg'
+import img2 from './images/img2.jpg'
 
 export const Product = [{
         "id": 1,
@@ -151,6 +153,7 @@ export const Product = [{
         "name": "Serpentine Velvet Sofa",
         "photo": icon17,
         "price": "£4,600.00",
-        "status": "true"
+        "status": "true",
+        "pic": [img1, img2]
     },
 ]

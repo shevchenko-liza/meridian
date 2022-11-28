@@ -15,6 +15,7 @@ export const SecondPartFooter = () => {
                         <div className={classes.icon}>
                             <img src={icon} className={classes.logo} />
                         </div>
+                        <div className={classes.line}></div>
                         <div className={classes.office}>Head Office</div>
                         <div className={classes.address}>32 Plum St, Trenton, NJ 08638, United States</div>
                         <div className={classes.phoneBox}>

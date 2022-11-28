@@ -64,13 +64,13 @@
 }
 
 .secondPlus {
+    position: absolute;
     margin-top: 36px;
-    margin-left: 1300px;
+    margin-left: 1650px;
 }
 
 .thirdQuestion {
     display: flex;
-    gap: 1320px;
 }
 
 .thirdTitle {
@@ -85,10 +85,13 @@
     line-height: 33px;
     color: #272727;
     margin-top: 45px;
+    width: 339px;
 }
 
 .thirdPlus {
+    position: absolute;
     margin-top: 36px;
+    padding-left: 1650px;
 }
 
 .fourthQuestion {
@@ -200,32 +203,38 @@
 }
 
 .fourthPlus {
-    margin-left: 1330px;
+    position: absolute;
+    margin-left: 1650px;
     margin-top: 36px;
 }
 
 .fifthPlus {
-    margin-left: 1270px;
+    position: absolute;
+    margin-left: 1650px;
     margin-top: 36px;
 }
 
 .sixthPlus {
-    margin-left: 1320px;
+    position: absolute;
+    margin-left: 1650px;
     margin-top: 36px;
 }
 
 .seventhPlus {
-    margin-left: 1330px;
+    position: absolute;
+    margin-left: 1650px;
     margin-top: 36px;
 }
 
 .eightPlus {
-    margin-left: 1153px;
+    position: absolute;
+    margin-left: 1650px;
     margin-top: 36px;
 }
 
 .ninthPlus {
-    margin-left: 1210px;
+    position: absolute;
+    margin-left: 1650px;
     margin-top: 36px;
 }
 

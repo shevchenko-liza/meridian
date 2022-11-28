@@ -1,9 +1,13 @@
+import clsx from 'clsx'
+import { FC, useCallback, useState } from 'react'
+import { useDispatch } from 'react-redux'
 import { generatePath, Link } from 'react-router-dom'
+import { cartSlice } from '../../../store/cart'
 
 import classes from './styles.module.scss'
 
 type ItemProps = {
-    id: string
+    id:  string
     name: string
     price: number | `${number}`
     photo: string
@@ -11,6 +15,19 @@ type ItemProps = {
     promotional_price: number
     kind?: string
 }
+
+export const Order= () => {
+    return (
+      <div >
+        <div className={classes.inputBox}>
+          <button type="button"  className={clsx(classes.button, classes.decrease)} value="-">-</button>
+          <input type="text" size={3} className={classes.input}  />
+          <button type="button"  className={clsx(classes.button, classes.increase)} value="+">+</button>
+        </div>
+        <button type="submit" className={clsx(classes.button, classes.order)}>Заказать</button>
+      </div>
+    )
+  }
 
 export const Item: React.FC<ItemProps> = ({ id, name, price, photo, discount, promotional_price, kind }) => (
     <div>

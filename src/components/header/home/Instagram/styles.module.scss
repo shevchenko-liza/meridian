@@ -14,20 +14,47 @@
     color: #545454;
 }
 
-.icon1,
-.icon2,
-.icon3,
-.icon4 {
+.icon1 {
+    position: relative;
     height: 480px;
     width: 480px;
     width: 25%;
+    z-index: 1;
+}
+
+.icon2 {
+    position: relative;
+    height: 480px;
+    width: 480px;
+    width: 25%;
+    z-index: 1;
+}
+
+.icon3 {
+    position: relative;
+    height: 480px;
+    width: 480px;
+    width: 25%;
+    z-index: 1;
+}
+
+.icon4 {
+    position: relative;
+    height: 480px;
+    width: 480px;
+    width: 25%;
+    z-index: 1;
+}
+
+.iconBox:hover {
+    z-index: 2;
+    margin-top: 27px;
+    position: relative;
+    background-color: red;
+    height: 582px;
+    width: 480px;
 }
 
 .iconBox {
-    margin-top: 27px;
-}
-
-.icon2:hover,
-.icon2:focus {
-    color: red;
+    position: relative;
 }

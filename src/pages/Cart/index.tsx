@@ -1,8 +1,16 @@
 import clsx from 'clsx'
+import { useSelector } from 'react-redux'
+import { CART } from '../../store/cart'
+import { CartItem } from './cart-item'
 import classes from './styles.module.scss'
 
 export const Cart = () => {
+    const cart = useSelector(CART)
     return (
+        <>
+        {Object.keys(cart.list).map(id => (
+            <CartItem key={`CartItem${id}`} id={parseInt(id)} />
+          ))}
         <div className={classes.box}>
             <div className={classes.order}>Order Summary</div>
             <div className={classes.border}>
@@ -94,5 +102,6 @@ export const Cart = () => {
                 <div className={classes.text}>Discount prices will be active after entering the checkout process</div>
             </div>
         </div>
+        </>
     )
 }

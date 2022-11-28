@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 
+import { cartSlice } from './cart'
 import { catalogSlice } from './slices/catalog'
 import { questionSlice } from './slices/FirstQuestion'
 import { livingSlice } from './slices/living'
@@ -12,6 +13,7 @@ export const store = configureStore({
         [searchSlice.name]: searchSlice.reducer,
         [livingSlice.name]: livingSlice.reducer,
         [questionSlice.name]: questionSlice.reducer,
-        [topFormSlice.name]: topFormSlice.reducer
+        [topFormSlice.name]: topFormSlice.reducer,
+        [cartSlice.name]: cartSlice.reducer,
     }
 })
