@@ -31,6 +31,7 @@ interface CartItemProps {
       <div>
         <div className={classes.cartCatalog}>
           <div className={classes.photoBox}>
+          <img className={classes.photo} src={product.photo} alt="" />
           </div>
           <div className={classes.infoBox}>
             <div className={classes.title}>{product.name} </div>
