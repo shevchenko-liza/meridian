@@ -109,3 +109,34 @@
     margin-top: 12px;
     border-color: #B5B5B5;
 }
+
+.userMessage::placeholder {
+    color: #A2A9B0;
+    height: 33px;
+    width: 223px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    padding-left: 25px;
+}
+
+.userEmail::placeholder {
+    height: 33px;
+    width: 236px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    padding-left: 32px;
+}
+
+.userName::placeholder {
+    height: 33px;
+    width: 201px;
+    padding-left: 27px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+}

@@ -1,6 +1,7 @@
 .block {
     margin: auto;
     max-width: 1719px;
+    margin-top: 28px;
 }
 
 .title {
@@ -17,23 +18,60 @@
 .icon1 {
     height: 480px;
     width: 25%;
+    opacity: 1;
 }
 
 .icon2 {
     height: 480px;
     width: 25%;
+    opacity: 1;
 }
 
 .icon3 {
     height: 480px;
     width: 25%;
+    opacity: 1;
 }
 
 .icon4 {
     height: 480px;
     width: 25%;
+    opacity: 1;
 }
 
-.iconBox:hover {
-    background-color: red;
+.icon4:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.icon1:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.icon2:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.icon3:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.text {
+    height: 32px;
+    width: 259px;
+    left: 50px;
+    top: 30px;
+    border-radius: nullpx;
+    font-family: Outfit;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 32px;
+    letter-spacing: 0.265em;
 }
