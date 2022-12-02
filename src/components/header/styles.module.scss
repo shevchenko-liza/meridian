@@ -52,8 +52,8 @@
 }
 
 .secondPart {
-    position: absolute;
-    margin: 59px 1147px;
+    margin-top: 58px;
+    margin-left: auto;
 }
 
 .home {
@@ -168,4 +168,10 @@
     border: none;
     background: transparent;
     cursor: pointer;
+}
+
+.border {
+    width: 100%;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
+    margin-top: 51px;
 }

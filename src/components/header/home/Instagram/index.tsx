@@ -17,9 +17,9 @@ export const Instagram = () => {
                 <img src={icon4} className={classes.icon4} />
             </div>
             <div className={classes.part}>
-                <div className={classes.border}>
+                {/* <div className={classes.border}>
                     <div className={classes.text}>View Product</div>
-                </div>
+                </div> */}
             </div>
         </div>
     )

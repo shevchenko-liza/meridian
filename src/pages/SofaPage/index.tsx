@@ -6,7 +6,7 @@ import classes from './styles.module.scss'
 
 export const SofaPage = () => {
     const product = Product
-    .filter(product => product.kind)
+    .filter(product => product.kind === 'sofas')
 
     return (
         <div className={classes.box}>

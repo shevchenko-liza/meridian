@@ -63,6 +63,7 @@ export const Header = () => {
                         </div>
                     </div>
                 </div>
+                <div className={classes.border}></div>
             </div>
         </>
     )

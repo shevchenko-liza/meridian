@@ -6,9 +6,6 @@ export const Footer = () => {
     return (
         <div>
             <div className={classes.nn}>
-                <div className={classes.box}>
-                    <img src={background} className={classes.background} />
-                </div>
                 <div className={classes.top}>
                     <div className={classes.block}>
                         <div className={classes.firstPart}>

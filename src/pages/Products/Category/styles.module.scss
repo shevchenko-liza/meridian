@@ -27,11 +27,6 @@
     margin-left: 184px;
 }
 
-.roomBox {
-    display: flex;
-    margin-top: 30px;
-}
-
 .kitchenBox {
     display: flex;
     margin-top: 30px;
@@ -79,23 +74,6 @@
     line-height: 33px;
     color: #888887;
     cursor: pointer;
-}
-
-.livingRoom {
-    padding: 0;
-    border: none;
-    background: transparent;
-    color: #888887;
-    font-family: HK Grotesk;
-    font-size: 25px;
-    font-weight: 400;
-    line-height: 33px;
-    cursor: pointer;
-    width: 136px;
-}
-
-.liv {
-    display: grid;
 }
 
 .roomPlus {}
@@ -352,8 +330,39 @@
     justify-content: flex-end;
 }
 
-.searchBox {
-    margin: 0;
+.toggle {
+    margin-left: auto;
+}
+
+.roomBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.liv {}
+
+.ttt {
+    display: flex;
+}
+
+.mainButton {
+    background-color: transparent;
+    color: red;
+}
+
+// .livingRoom {
+//     padding: 0;
+//     border: none;
+//     background: transparent;
+//     color: #888887;
+//     font-family: HK Grotesk;
+//     font-size: 25px;
+//     font-weight: 400;
+//     line-height: 33px;
+//     cursor: pointer;
+//     width: 136px;
+// }
+.livingRoom {
     padding: 0;
     border: none;
     background: transparent;
@@ -363,5 +372,5 @@
     font-weight: 400;
     line-height: 33px;
     cursor: pointer;
-    width: 145px;
+    margin-top: 30px;
 }

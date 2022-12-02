@@ -2,16 +2,13 @@ import clsx from "clsx"
 import classes from './styles.module.scss'
 
 import { useParams } from "react-router-dom"
-
 import { FrequentlyQuestions } from "../../../components/FrequentlyQuestions"
 import { ProductInformation } from "../../../ProductInformation"
-import {CATALOG} from '../../../store/slices/catalog'
 import { TopForm } from "../../../ProductInformation/top-form"
 
 import icon1 from './photo/icon1.jpg'
 import { PopularSets } from "../../../components/PopularSets"
 import { Order } from "./Item"
-import { useSelector } from "react-redux"
 import { Product } from "../../../components/assets/catalog"
 
 export const ProductSofa = () => {
@@ -37,7 +34,12 @@ export const ProductSofa = () => {
                         <div className={classes.discount}>{sofas.discount}</div>
                     </div>
                     <div className={classes.id}>{id}</div>
-                    {/* <img className={classes.img} src={sofas.pic} alt="" /> */}
+                    <div className={classes.colorBox}>
+                        <div className={classes.colorTitle}>Colors:</div>
+                        {sofas.pic?.map(color => (
+                            <img className={classes.img} src={color} alt="" />
+                        ))}
+                    </div>
                     <div className={classes.kind} >{sofas.kind}</div>
                     <Order id={parseInt(id)} />
                     <div className={classes.checkoutBox}>

@@ -1,8 +1,17 @@
 .box {
     margin: auto;
     max-width: 1759px;
-    // transform: translateX(1270px);
-    margin-bottom: 150px;
+    display: flex;
+    margin-bottom: 200px;
+    margin-top: 119px;
+}
+
+.main {
+    margin-left: auto;
+}
+
+.topBox {
+    display: flex;
 }
 
 .order {
@@ -16,7 +25,7 @@
     border: 1px solid #D3D3D3;
     height: 634px;
     width: 469px;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 
 .block {
@@ -157,4 +166,150 @@
     color: #808080;
     margin-left: 21px;
     margin-top: 40px;
+}
+
+.cartName {
+    height: 69px;
+    width: 352px;
+    font-family: Outfit;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 69px;
+    color: #000000;
+}
+
+.cartCatalog {
+    display: flex;
+    margin-top: 18px;
+}
+
+.infoBox {
+    display: flex;
+}
+
+.decrease {
+    width: 38px;
+    height: 40px;
+    border-color: #E4E4E4;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.inputBox {
+    margin-left: 95px;
+}
+
+.increase {
+    width: 38px;
+    height: 40px;
+    border-color: #E4E4E4;
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 50px;
+    outline: none;
+}
+
+.table {
+    display: flex;
+    margin-left: 78px;
+}
+
+.borderBlock {
+    border: 1px solid #B6B6B6;
+    height: 60px;
+    width: 1197px;
+    margin-top: 30px;
+}
+
+.quantity {
+    margin-left: 379px;
+    height: 37px;
+    width: 98px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #333333;
+    margin-top: 11px;
+}
+
+.totalBox {
+    margin-left: 129px;
+    color: #333333;
+    height: 37px;
+    width: 56px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    margin-top: 11px;
+    line-height: 33px;
+}
+
+.product {
+    height: 37px;
+    width: 100px;
+    color: #333333;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-top: 11px;
+}
+
+.photo {
+    height: 128px;
+    width: 114px;
+}
+
+.borderMain {
+    border: 1px solid #B6B6B6;
+    width: 1197px;
+}
+
+.photoBox {
+    margin-left: 66px;
+    margin-bottom: 18px;
+}
+
+.title {
+    margin-top: 40px;
+    height: 73px;
+    width: 240px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #888887;
+    margin-left: 35px;
+}
+
+.input {
+    width: 38px;
+    height: 34px;
+}
+
+.price {
+    height: 37px;
+    width: 118px;
+    font-family: HK Grotesk;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 33px;
+    color: #333333;
+    margin-top: 53px;
+    margin-left: 106px;
+}
+
+.butttonDelet {
+    background-color: transparent;
+    border-color: transparent;
+    height: 16px;
+    width: 15px;
+    cursor: pointer;
+}
+
+.buttonForm {
+    margin-left: 200px;
+    margin-top: 55px;
 }

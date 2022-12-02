@@ -25,13 +25,13 @@ export const Category = () => {
                         </div>
                     </div>
                     <div className={classes.roomBox}>
-                        <div className={classes.liv}>
+                        <div className={classes.ttt}>
                             <button onClick={handleToggle} className={classes.livingRoom}>Living Room</button>
-                            {opened ? <LivingRoom /> : null}
+                            <div className={classes.toggle}>
+                                <Toggler />
+                            </div>
                         </div>
-                        <div>
-                            <Toggler />
-                        </div>
+                        {opened ? <LivingRoom /> : null}
                     </div>
                     <div className={classes.kitchenBox}>
                         <button className={classes.kitchenRoom}>Kitchen & Dining Rooms</button>

@@ -14,20 +14,25 @@ import icon14 from './images/icon14.jpg'
 import icon15 from './images/icon15.jpg'
 import icon16 from './images/icon16.jpg'
 import icon17 from './images/icon17.jpg'
-import img1 from './images/img1.jpg'
-import img2 from './images/img2.jpg'
+import img1 from './images/img1.svg'
+import img2 from './images/img2.svg'
+import img3 from './images/img3.svg'
+import img4 from './images/img4.svg'
+import img5 from './images/img5.svg'
+
 
 export const Product = [{
-        "id": 1,
+        "id": 0,
         "name": "Serene Linen Deluxe Cloud",
         "photo": icon1,
         "kind": "sofas",
         "price": "£2,500.00",
         "promotional_price": "£2,500.00",
-        "discount": "40% Off"
+        "discount": "40% Off",
+        "pic": [img1, img2, img3, img4, img5]
     },
     {
-        "id": 2,
+        "id": 1,
         "name": "Hilton Boucle Fabric Chaise Lounge",
         "photo": icon2,
         "kind": "sofas",
@@ -36,16 +41,17 @@ export const Product = [{
         "discount": "40% Off"
     },
     {
-        "id": 3,
+        "id": 2,
         "name": "Marquis Velvet Sofa",
         "photo": icon3,
         "kind": "sofas",
         "price": "£2,500.00",
         "promotional_price": "£2,500.00",
-        "discount": " 40% Off"
+        "discount": " 40% Off",
+        "pic": [img1, img2, img3, img4, img5]
     },
     {
-        "id": 4,
+        "id": 3,
         "name": "Siam SSerene Linen Deluxe Cloud ",
         "photo": icon4,
         "kind": "sofas",
@@ -144,16 +150,18 @@ export const Product = [{
     {
         "id": 15,
         "name": "Alina Velvet Set ",
+        "Kind": "armchair",
         "photo": icon16,
         "price": "£3,700.00",
         "status": "true"
     },
     {
         "id": 16,
+        "kind": "sofas",
         "name": "Serpentine Velvet Sofa",
         "photo": icon17,
         "price": "£4,600.00",
         "status": "true",
-        "pic": [img1, img2]
+        "pic": [img1, img2, img3, img4, img5]
     },
 ]

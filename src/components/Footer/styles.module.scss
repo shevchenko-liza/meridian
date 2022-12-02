@@ -3,10 +3,8 @@
 }
 
 .background {
-    position: absolute;
     height: 471px;
     width: 100%;
-    z-index: 1;
 }
 
 .block {
@@ -17,8 +15,11 @@
 .top {
     margin: auto;
     max-width: 1719px;
-    position: relative;
-    z-index: 2;
+}
+
+.nn {
+    background-image: url(./photo/background.jpg);
+    height: 470px;
 }
 
 .bg {
