@@ -33,3 +33,46 @@
     width: 1718px;
     margin-top: 50px;
 }
+
+@media only screen and (max-width:479.98px) {
+    .box {
+        margin: auto;
+        max-width: 450px;
+    }
+    .iconBox {
+        display: grid;
+        margin-top: 34px;
+    }
+    .icons {
+        display: grid;
+    }
+    .icon2,
+    .icon3,
+    .icon4,
+    .icon5 {
+        height: 300px;
+        width: 300px;
+    }
+    .icon1 {
+        height: 300px;
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width:746.98px) {
+    .box {
+        margin: auto;
+        max-width: 550px
+    }
+    .iconBox {
+        display: grid;
+        margin-top: 34px;
+    }
+    .icons {
+        display: grid;
+    }
+    .icon1 {
+        height: 555px;
+        width: 555px;
+    }
+}

@@ -35,7 +35,9 @@ export const CartItem: FC<CartItemProps> = ({ id }) => {
           <img className={classes.photo} src={product.photo} alt="" />
         </div>
         <div className={classes.infoBox}>
+          <div className={classes.titleBox}>
           <div className={classes.title}>{product.name} </div>
+          </div>
           <div className={classes.form}>
             <div className={classes.inputBox}>
               <button type="button" onClick={decrease} className={clsx(classes.buttonInput, classes.decrease)} value="-">-</button>

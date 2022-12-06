@@ -192,3 +192,25 @@
 .chairPart {
     margin-left: 29px;
 }
+
+@media screen and (max-width:746.98px) {
+    .block {
+        margin: auto;
+        max-width: 650px;
+    }
+    .title {
+        margin: 0;
+        font-size: 45px;
+    }
+    .text {
+        margin: 0;
+        width: 520px;
+    }
+}
+
+@media only screen and (max-width:479.98px) {
+    .block {
+        margin: auto;
+        max-width: 410px;
+    }
+}

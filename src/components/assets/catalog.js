@@ -60,7 +60,7 @@ export const Product = [{
         "discount": " 40% Off"
     },
     {
-        "id": 5,
+        "id": 4,
         "name": "SiaSerene Linen Deluxe Cloud",
         "photo": icon5,
         "kind": "sofas",
@@ -70,7 +70,7 @@ export const Product = [{
     },
 
     {
-        "id": 6,
+        "id": 5,
         "name": "Serene Linen Deluxe Cloud",
         "photo": icon6,
         "kind": "sofas",
@@ -79,7 +79,7 @@ export const Product = [{
         "discount": "40% Off"
     },
     {
-        "id": 7,
+        "id": 6,
         "name": "Serene Linen Deluxe Cloud",
         "photo": icon7,
         "kind": "sofas",
@@ -89,7 +89,7 @@ export const Product = [{
     },
 
     {
-        "id": 8,
+        "id": 7,
         "name": "Serene Linen Deluxe Cloud",
         "photo": icon8,
         "kind": "sofas",
@@ -98,7 +98,7 @@ export const Product = [{
         "discount": " 40% Off"
     },
     {
-        "id": 9,
+        "id": 8,
         "name": "Alina Velvet Modular Sofa",
         "photo": icon9,
         "kind": "sofas",
@@ -107,7 +107,7 @@ export const Product = [{
         "discount": " 40% Off"
     },
     {
-        "id": 10,
+        "id": 9,
         "name": "Plush Velvet Standard Cloud",
         "photo": icon10,
         "kind": "sofas",
@@ -116,7 +116,7 @@ export const Product = [{
         "discount": "40% Off"
     },
     {
-        "id": 11,
+        "id": 10,
         "name": "Marlon Velvet SofaSet 1 ",
         "photo": icon11,
         "kind": "sofas",
@@ -125,7 +125,7 @@ export const Product = [{
         "discount": "40% Off"
     },
     {
-        "id": 12,
+        "id": 11,
         "name": "Plush Velvet Standard Cloud ",
         "photo": icon12,
         "kind": "sofas",
@@ -134,21 +134,21 @@ export const Product = [{
         "discount": " 40% Off"
     },
     {
-        "id": 13,
+        "id": 12,
         "name": "Alma Velvet Armless ",
         "photo": icon14,
         "price": "£3,400.00",
         "status": "true"
     },
     {
-        "id": 14,
+        "id": 13,
         "name": "Alma Velvet Armless Set",
         "photo": icon15,
         "price": "£3,600.00",
         "status": "true"
     },
     {
-        "id": 15,
+        "id": 14,
         "name": "Alina Velvet Set ",
         "Kind": "armchair",
         "photo": icon16,
@@ -156,7 +156,7 @@ export const Product = [{
         "status": "true"
     },
     {
-        "id": 16,
+        "id": 15,
         "kind": "sofas",
         "name": "Serpentine Velvet Sofa",
         "photo": icon17,

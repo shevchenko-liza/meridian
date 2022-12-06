@@ -71,3 +71,47 @@
     letter-spacing: 0em;
     text-align: center;
 }
+
+@media only screen and (max-width:479.98px) {
+    .icon {
+        height: 400px;
+    }
+    .icon1 {
+        width: 60px;
+        height: 60px;
+        margin-top: 70px;
+    }
+    .title {
+        width: 450px;
+        font-size: 30;
+        margin: 0;
+    }
+    .text {
+        width: 370px;
+        font-size: 30px;
+        padding: 219px;
+        line-height: 40px;
+    }
+}
+
+@media only screen and (max-width:746.98px) {
+    .icon {
+        height: 400px;
+    }
+    .icon1 {
+        width: 60px;
+        height: 60px;
+        margin-top: 70px;
+    }
+    .title {
+        width: 450px;
+        font-size: 30;
+        margin: 0;
+    }
+    .text {
+        width: 370px;
+        font-size: 30px;
+        padding: 219px;
+        line-height: 40px;
+    }
+}

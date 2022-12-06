@@ -52,3 +52,68 @@
         color: #161616;
         margin-left: 300px
     }
+    
+    @media only screen and (max-width:479.98px) {
+        .box {
+            margin: auto;
+            max-width: 450px;
+        }
+        .icon1 {
+            height: 250px;
+            width: 10px;
+        }
+        .icon2,
+        .icon3,
+        .icon4,
+        .icon5 {
+            height: 250px;
+            width: 200px;
+        }
+        .title {
+            margin-left: 30px;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .text {
+            margin-left: 30px;
+            margin-top: 0px;
+            max-width: 350px;
+            font-size: 15px;
+            margin-top: -15px;
+        }
+        .iconBox {
+            margin-top: 50px;
+        }
+    }
+    
+    @media screen and (max-width:746.98px) {
+        .box {
+            margin: auto;
+            max-width: 650px;
+        }
+        .icon1 {
+            height: 250px;
+            width: 430px;
+        }
+        .icon2,
+        .icon3,
+        .icon4,
+        .icon5 {
+            height: 250px;
+            width: 200px;
+        }
+        .title {
+            margin-left: 30px;
+            font-size: 30px;
+            margin-top: 10px;
+        }
+        .text {
+            margin-left: 30px;
+            margin-top: 0px;
+            font-size: 15px;
+            margin-top: -25px;
+        }
+        .iconBox {
+            margin-top: 20px;
+        }
+    }

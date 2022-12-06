@@ -88,3 +88,10 @@
 .right {
     margin-top: 12px;
 }
+
+@media only screen and (max-width:746.98px) {
+    .box {
+        margin: auto;
+        max-width: 650px;
+    }
+}

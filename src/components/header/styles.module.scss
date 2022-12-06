@@ -42,6 +42,7 @@
     border: none;
     background: transparent;
     cursor: pointer;
+    margin-top: 58px;
 }
 
 .search {
@@ -49,10 +50,10 @@
     border: none;
     background: transparent;
     cursor: pointer;
+    margin-top: 58px;
 }
 
 .secondPart {
-    margin-top: 58px;
     margin-left: auto;
 }
 
@@ -129,6 +130,7 @@
 }
 
 .login {
+    margin-top: 58px;
     height: 33px;
     width: 115px;
     font-family: HK Grotesk;
@@ -143,6 +145,7 @@
 }
 
 .dealer {
+    margin-top: 58px;
     color: #878787;
     height: 33px;
     width: 157px;
@@ -157,6 +160,7 @@
 }
 
 .retail {
+    margin-top: 58px;
     color: #878787;
     height: 33px;
     width: 116px;
@@ -174,4 +178,86 @@
     width: 100%;
     border-bottom: 0.5px solid rgba(0, 0, 0, 0.15);
     margin-top: 51px;
+}
+
+@media screen and (max-width:479.98px) {
+    .box {
+        margin: auto;
+        max-width: 450px;
+    }
+    .logo {
+        height: 45px;
+        width: 217px;
+    }
+    .box {
+        height: 100px;
+    }
+    .title {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .dealer {
+        display: none;
+    }
+    .retail {
+        display: none;
+    }
+    .search {
+        display: none;
+    }
+    .cart {
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .top {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (max-width:746.98px) {
+    .title {
+        display: none;
+    }
+    .login {
+        display: none;
+    }
+    .dealer {
+        display: none;
+    }
+    .retail {
+        display: none;
+    }
+    .box {
+        margin: auto;
+        max-width: 720px;
+    }
+    .logo {
+        height: 45px;
+        width: 217px;
+    }
+    .top {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .box {
+        height: 100px;
+    }
+    .search {
+        display: none;
+    }
+    .cart {
+        margin-top: 40px;
+        margin-right: 20px;
+    }
 }
